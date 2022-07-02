@@ -1,12 +1,14 @@
-h3{
+.Navigation li{
+    display: inline;
+    list-style-type:none;
+    padding: 7px;
+    margin: 10px;
+}
+.links{
+    background-color: blueviolet;
+    padding: 10px;
+}
+#title{
     font-style: italic;
     font-weight: bold;
-}
-ul{
-    list-style-type:none;
-
-
-}
-li{
-    display: inline;
 }
