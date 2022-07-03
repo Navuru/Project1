@@ -4,29 +4,63 @@
 .Navigation li{
     display: inline;
     list-style-type:none;
-    padding: 7px;
+    padding: 10px;
     margin: 10px;
 }
 .links{
-    background-color: blueviolet;
+    
     padding: 10px;
     border: 10px;
+    list-style-type: none;
 }
 #title{
     font-style: italic;
     font-weight: bold;
 }
 .Description{
-    text-align: right;
+    text-indent: 50px;
     text-emphasis-color:#2549D3 ;
 }
 #left{
     text-align: left;
+    display: block;
 }
 #right{
     text-align: right;
-    text-emphasis-color: #2549D3;
+    color: #2549D3;
+    display: list-item;
+}
+h1{
+    color: #2549D3;
+}
+h2{
+    color: #2549D3;
+}
+h3{
+    color: #2549D3;
 }
 .horizontal{
+    display: inline
+}
+img{
+    display: block;
+    list-style-type:inline;
+}
+.Tail{
+    text-align: center;
+}
+.Tail{
+    text-align: center;
+}
+img{
+    align-items: inline;
+}
+#image{
     display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
