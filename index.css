@@ -22,13 +22,13 @@
 }
 #left{
     text-align: left;
-    display: initial;
-}
-#right{
-    text-align: right;
     display: block;
-    list-style-type: none;
 }
+/*#right{
+    text-align: right;
+    display: block
+    list-style-type: none;
+} */
 h1{
     color: #2549D3;
 }
@@ -49,14 +49,17 @@ img{
     text-align: center;
 }
 img{
-    align-items: inline;
+    height: 150px;
+    
+
 }
 #image{
     display: flex;
     justify-content: center;
 }
-div{
+.Flex-container{
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
+    flex-direction: row;
+    justify-content: space-around;
+   
+    }
