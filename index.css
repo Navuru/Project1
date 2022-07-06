@@ -1,65 +1,246 @@
-*{
+/* *{
     background-color: #FAFAFA;
-}
-.Navigation li{
-    display: inline;
-    list-style-type:none;
-    padding: 0px;
-    margin: 10px;
-}
-.links{
-    
-    padding: 10px;
-    list-style-type: none;
-    background-color: #2549D3;
-}
-#title{
-    font-style: italic;
-    font-weight: bold;
-}
-.Description{
-    text-indent: 50px;
-}
-#left{
-    text-align: left;
-    display: block;
-}
-/*#right{
-    text-align: right;
-    display: block
-    list-style-type: none;
 } */
-h1{
-    color: #2549D3;
+/* body{
+    background-color: #FAFAFA;
+} 
+li{
+    list-style: none;
+}*/
+a{
+    text-decoration: none;
+    color: black;
 }
-h2{
-    color: #2549D3;
+.navbar{
+    font-family: 'Space Grotesk';
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none;
 }
-.horizontal{
-    display: inline
+.navbar li:first-child{
+    font-family: 'Oleo Script';
 }
-img{
-    display: block;
-    list-style-type:inline;
+.navbar li:last-child{
+    color:red;
+    background-color: #2549D3;
+    padding: 10px;
+    border-radius: 5px;
 }
-.Tail{
-    text-align: center;
+.navbar li:last-child a{
+    color: #FAFAFA;
 }
-.Tail{
-    text-align: center;
+.description{
+    font-family: 'Space Grotesk';
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
 }
-img{
-    height: 150px;
+.description div span{
+    background-color: #2549D3;
+    padding: 10px;
+    color: #FAFAFA;
+    border-radius: 5px;
+}
+.description img{
+    height: 300px;
+    width: 400px;
     
 
 }
-#image{
+.navigation span{
+    background-color: #2549D3;
+    padding: 10px;
+    color: #FAFAFA;
+    border-radius: 5px;
+}
+
+
+.navigation{
+    font-family: 'Space Grotesk';
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width:60%;
+    margin: auto;
+    box-shadow: 4px 3px 4px 4px rgb(224, 219, 219);
+    padding: 30px;
+    border-radius: 10px;
+    list-style-type: none;
+    
+}
+
+.navigation div li:first-child{
+    font-weight: 800;
+    color: #2549D3;
+}
+h1{
+    color: #0F298B;
+}
+
+.products{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.products-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.products-flex div{
+    box-shadow: 2px 2px 4px 4px rgb(224, 219, 219);
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+
+}
+.products .products-flex img{
+    width: 100px;
+    height: 100px;
+
+}
+.products-flex h3{
+    font-weight: bolder;
+}
+.products-flex p{
+    font-family: 'Space Grotesk';
+
+}
+.products h2{
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+    color: #0F298B;
+}
+.description-image img{
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    margin-right: 200px; 
+
+}
+.about{
+    font-family: 'Space Grotesk';
+    display: flex;
+    text-align: left;
+}
+.about div li{
+    list-style-type:symbols()
+}
+
+.bulletin{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
 }
 .Flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-   
-    }
+    
+}
+.Flex-container img{
+    width: 200px;
+    height: 100px;
+
+}
+span{
+    background-color: #2549D3;
+    padding: 10px;
+    color: #FAFAFA;
+    border-radius: 5px;
+    float: right;
+}
+.features h2{
+    font-family: 'Space Grotesk';
+    color: #0F298B;
+    font-weight: bolder;
+    text-align: center;
+}
+.features p{
+    font-family: 'Space Grotesk';
+    text-align: center;
+}
+.reviews h2{
+    text-align: center;
+    color: #0F298B;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+}
+.reviews p{
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+}
+.customer-reviews{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.customer-reviews div :first-child{
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+}
+.customer-reviews div :nth-child(2){
+    font-size: smaller;
+    font-weight: bold;
+}
+.customer-reviews div :last-child{
+    font-size: smaller;
+    font-weight: lighter;
+}
+.title{
+    color: #2549D3;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+/*footer{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}*/
+.footer-elements{
+    
+    justify-content: space-around;
+    text-align: left;
+    padding: 10px;
+    background-color: #0F298B;
+}
+.footer-elements{
+    display: flex;
+    width:auto;
+    padding-bottom: 150px;
+    padding-top: 30px;
+    padding-left: 1px;
+    padding-right: 30px;
+    color: #FAFAFA;
+    font-weight: bolder;
+    font-family: 'Space Grotesk';
+
+}
+.footer-elements a{
+    color: aliceblue;
+    font-weight: lighter;
+    
+}
+.footer-elements p{
+    color: aliceblue;
+    font-weight: lighter;
+
+
+}
+.footer-elements div li{
+    list-style-type: none;
+}
+#Oleo{
+    font-family: 'Oleo Script';
+}
+body{
+    width:70%;
+    padding-left: 200px;
+}
